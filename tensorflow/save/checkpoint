@@ -1,0 +1,3 @@
+model_checkpoint_path: "mode1.ckpt"
+all_model_checkpoint_paths: "/save/mode1.ckpt"
+all_model_checkpoint_paths: "mode1.ckpt"
