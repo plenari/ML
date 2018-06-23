@@ -382,8 +382,8 @@ for epoch in range(1000):
         # calling optimizer.step()
         loss.backward()
         optimizer.step()
-        if epoch%100==0:
-            print(epoch,loss.data)
+    if epoch%100==0:
+        print(epoch,loss.data)
 # Check predictions after training
 with torch.no_grad():
     precheck_sent = prepare_sequence(training_data[0][0], word_to_ix)
